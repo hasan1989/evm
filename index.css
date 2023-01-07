@@ -1,0 +1,99 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: aqua;
+    margin: 0px;
+}
+
+
+.main {
+    background-color: beige;
+    height: 100vh;
+}
+
+.container {
+    height: 60%;
+    width: 70%;
+    border: 1px solid black;
+    display: flex;
+    border-radius: 5px;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container .img {
+    /* background-color: aqua; */
+    width: 60%;
+    font-family: 'Comfortaa', cursive;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container .log {
+    width: 40%;
+    /* background-color: #80ff8a; */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+}
+
+.loghead {
+    font-family: 'Comfortaa', cursive;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.logcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#userid, #pw {
+    /* background-color:#b5ffbb ; */
+    margin-bottom: 10px;
+    border-style: none;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.btn {
+    background-color:#023b07 ;
+    margin-bottom: 10px;
+    border-style: none;
+    height: 32px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+    color: lavender;
+    font-family: 'Comfortaa', cursive;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #0c310f;
+}
+
+.fa-quote-left {
+    margin-bottom: 15px;
+}
+
+.fa-quote-right {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+       
+    }
+}

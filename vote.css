@@ -1,0 +1,42 @@
+body {
+    background-color: bisque;
+    font-family: 'Comfortaa', cursive;
+}
+.head {
+    text-align: center;
+}
+.candidate {
+    border: 1px solid black;
+    width: 150px;
+}
+#candi {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5px 5px;
+    /* background-color: blue; */
+}
+.candibtn {
+    cursor: pointer;
+    width: 90%;
+    text-align: center;
+}
+
+.candibtn:hover {
+   background-color: beige;
+}
+.btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#result {
+    display: flex;
+    justify-content:space-evenly;
+    width: 80%;
+    margin: auto;
+    /* background-color: aquamarine; */
+}
